@@ -62,8 +62,8 @@ GUIOBJ.prototype.expand = function () {
   var screenHeight = $('.hud').outerHeight();
   var offset = this.element.position();
 
-  this.element.css({transform:'translate(-50%,-50%)',display:'block',backgroundColor:'rgba(53, 102, 155, 0.70)'});
-  this.element.animate({top:screenHeight/2,left:screenWidth/2,height:screenHeight,width:screenWidth,backgroundColor:'rgba(53, 102, 155, 0.70)'},"slow")
+  this.element.css({transform:'translate(-50%,-50%)',display:'block',backgroundColor:'rgba(53, 102, 155, 0.85)'});
+  this.element.animate({top:screenHeight/2,left:screenWidth/2,height:screenHeight,width:screenWidth,backgroundColor:'rgba(53, 102, 155, 0.85)'},"slow")
   this.element.removeClass('animIdle');
   this.description.css('opacity','0');
   this.onClick();
